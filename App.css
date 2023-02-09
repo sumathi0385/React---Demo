@@ -1,0 +1,38 @@
+body{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 0.8rem;
+}
+
+.row{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  column-gap: 0.7rem;
+}
+
+.col-3{
+  flex:1;
+  margin: 1rem;
+}
+.block{
+  background-color: white;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+}
+h3{
+  text-align: center;
+}
+
+.small{
+  width: 12rem;
+  height: 14rem;
+  border-radius: 0.5rem;
+  
+}
+.rating{
+  text-align: right;
+}
+.row.titleinfo{
+  justify-content:space-between;
+}
